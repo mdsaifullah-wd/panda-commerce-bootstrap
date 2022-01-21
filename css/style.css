@@ -1,0 +1,17 @@
+.btn-primary {
+  background-color: #ff589b;
+  border: 1px solid #ff589b;
+}
+.btn-primary:hover {
+  background-color: #ff3f8c;
+  border: 1px solid #ff3f8c;
+}
+.bg-primary {
+  background-color: #ff589b;
+}
+.banner__price {
+  color: #ff589b;
+}
+.custom-rounded-1 {
+  border-radius: 20px;
+}
