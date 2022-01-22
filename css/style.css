@@ -1,17 +1,23 @@
-.btn-primary {
-  background-color: #ff589b;
-  border: 1px solid #ff589b;
+.panda-btn-primary {
+  background-image: linear-gradient(#ff589b, #ff136f);
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  font-size: 1rem;
 }
-.btn-primary:hover {
-  background-color: #ff3f8c;
-  border: 1px solid #ff3f8c;
+.panda-btn-primary:hover {
+  background-image: linear-gradient(#ff589b, #ff136f);
+  border: none;
+  color: #fff;
+  opacity: 0.9;
 }
-.bg-primary {
+.panda-bg-primary {
   background-color: #ff589b;
 }
 .banner__price {
   color: #ff589b;
 }
-.custom-rounded-1 {
+.panda-rounded-2 {
   border-radius: 20px;
 }
