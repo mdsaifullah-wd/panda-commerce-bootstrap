@@ -41,9 +41,9 @@
               class="d-inline-block align-text-top"
             />
           </a>
-          <form class="d-none d-md-flex">
+          <!-- <form class="d-none d-md-flex">
             <input class="form-control me-2 bg-light border-0 rounded-pill" style="width: 400px;" type="search" placeholder="Search" aria-label="Search">
-          </form>
+          </form> -->
           <button
             class="navbar-toggler"
             type="button"
@@ -55,7 +55,13 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse align-items-start" id="navbarSupportedContent">
+            <form class="d-none d-md-flex bg-light rounded-pill overflow-hidden" style="width: 400px;">
+              <input class="form-control me-2 border-0 bg-light shadow-none search-input" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn shadow-none" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
